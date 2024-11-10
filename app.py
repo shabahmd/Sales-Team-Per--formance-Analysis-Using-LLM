@@ -10,7 +10,7 @@ app = Flask(__name__)
 sales_data = pd.read_csv('sales_data.csv')
 
 # Initialize Hugging Face Inference API
-HF_TOKEN = "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"
+HF_TOKEN = "<Use your Own Token Here>"
 remotely_run = HuggingFaceInferenceAPI(
     model_name="HuggingFaceH4/zephyr-7b-alpha", token=HF_TOKEN
 )
