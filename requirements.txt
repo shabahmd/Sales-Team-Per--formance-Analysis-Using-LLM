@@ -1,0 +1,4 @@
+Flask
+pandas
+llama-index
+pyngrok
